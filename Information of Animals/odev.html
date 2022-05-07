@@ -1,0 +1,638 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <style>
+        body{
+			background-image: url(img/704428.jpg);
+			background-repeat: no-repeat;
+			background-size: cover;
+			background-attachment: fixed;
+            height:2000px}
+    </style>
+    <style> body{ height: 2500px;}
+    
+        .carousel-inner img{
+            width: 100%;
+            
+        }
+    
+    </style>
+</head>
+<body>
+    <div class="container">
+   <div id="deneme" class="carousel slide" data-ride="carousel" >
+    <ul class="carousel-indicators">
+       <li data-target="#deneme" data-slide-to="0"></li>
+        <li data-target="#deneme" data-slide-to="1"></li>
+        <li data-target="#deneme" data-slide-to="2"></li>
+         <li data-target="#deneme" data-slide-to="3"></li>
+      </ul>
+    
+    <div class="carousel-inner">
+       <div class="carousel-item active"><img src="img/White-tiger-2407799_1280.jpg" width="500px" height="450px"> <div class="carousel-caption"><h3>Beyaz Kaplan</h3>
+            <p>Memeli</p></div></div>
+        <div class="carousel-item"><img src="img/asd.jpg" width="500px" height="450px">
+        <div class="carousel-caption"><h3>Sakallı Akbaba</h3>
+            <p>Yırtıcı Kuş</p></div></div>
+        <div class="carousel-item"><img src="img/tmsh.jpg" width="500px" height="450px">
+            <div class="carousel-caption"><h3>Timsah</h3>
+            <p>Sürüngen</p></div></div>
+          <div class="carousel-item"><img src="img/57221f7718c776410892698a.jpg" width="500px" height="450px">
+              <div class="carousel-caption"><h3>Torbalı Japon Balığı</h3>
+            <p>Balık</p></div></div>
+       
+       <a class="carousel-control-prev" href="#deneme" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+              </a>
+         <a class="carousel-control-next" href="#deneme" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+              </a>
+       
+       
+       
+       </div>
+    
+    </div>
+    
+    
+    
+    
+    
+    
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark sticky-top" >
+
+       
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsenav">
+        <span class="navbar-toggler-icon"></span></button>
+        <div class="collapse navbar-collapse" id="collapsenav">
+           <a class="navbar-brand" href="#">
+<img src="img/58550.jpg"  width="200px" height="70px"> </a>
+    <ul class="navbar-nav">
+        <li class="nav-item"><a class="nav-link" href="#"><div class="text-white">Anasayfa</div></a></li>
+        <li class="nav-item"><a class="nav-link" href="#"><div class="text-white">Hayvanlar</div></a></li>
+        <li class="nav-item"><a class="nav-link" href="#"><div class="text-white">Bilgi Köşesi</div></a></li>
+        <li class="nav-item"><a class="nav-link" href="#"><div class="text-white">Belgeseller</div></a></li>
+        <li class="nav-item"><a class="nav-link" href="#"><div class="text-white">Hakkında</div></a></li> 
+            </ul>
+    </div>
+         <form class="form-inline" action="/action_page.php">
+        <input class="form-control mr-sm-2" type="text" placeholder="Arama">
+        <button class="btn btn-success" type="submit" >Arama</button></form>
+    </nav>
+        <br>
+    <div id="accordion">
+    <div class="card ">
+    <div class="header bg-light navbar-dark" >
+    <a href="#collapse1" class="card-link collapsed" data-toggle="collapse"><div class="text-success "> Memeliler</div></a></div>
+    <div id="collapse1" class="collapse" data-parent="#accordion"> <div class="row">
+    <div class="col-md-3"> <div class="card" ><img src="img/beyazkaplan.jpg" height=200px >
+         <div style="background-color: beige; width: 100% "></div>
+    <div class="card-body">
+       
+        <h4 class="card-title modal-dialog-scrollable">Beyaz Kaplan</h4>
+         <p class="card-text">Beyaz Kaplan, genellikle Beyaz Bengal Kaplanı olarak bilinir. Farklı bir tür sanılan bu kaplan, 10000 doğumda bir kez denk gelen olağan dışı genin, her iki kaplanda da olmasıyla doğal olarak gerçekleşebilir. Kaplanın Beyaz olabilmesi için resesif gene sahip olması ya da albino olması gerekir.</p>
+            <button type="button" class="btn btn-info" data-toggle="modal" data-target="#firstmodal">Bilgilenmek İçin Tıklayın</button>
+
+<div class="modal fade" id="firstmodal">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+    <div class="modal-content">
+        
+        <div class="modal-header">
+        <h4 class="modal-title">Beyaz Kaplan</h4>
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+        
+        </div>
+        <div class="modal-body"> <img src="img/asdf.png" height=250px width=100% ><br><br>
+        Açık renk bir pigmentasyonun sebebi, yavrunun her iki taraftan da resesif geni almasıdır. Pembe burun, pembe patiler, gri beyaz alacalı surat, buz mavisi gözler, beyaz-krem rengi arası bir kürk ve üzerindeki siyah-gri-kahverengi şeritler. beyaz kaplanlar, turuncu olanlarla çiftleşebilir ancak yavrular resesif gen açısından heterozigot olacak ve tuyleri turuncu olacaktır... bunu tek istisnası, çiftleşilen turuncu kaplan da bir heterozigot ise, bu durumda yavru, %50 ihtimalle çift resesif gene sahip olup beyaz olabilecektir. Turuncu renkli normal pigmantasyonu kaplanlarla karşılaştırıldığında, beyaz kaplanların hem doğumda hem de ilerki devrelerde turuncu kaplanlardan daha iri oldukları gözlemlenmiş.
+            <br><br>
+            Beyaz kaplanlar çok büyük bir ihtimalle bengal kaplanlarından çıkmaktadır. Hatta hindistanda bu kaplanlara, royal bengal veya hint kaplanı panthera tigris tigris denmektedir. Beyaz pigmentasyon, az da olsa esaret altındaki sibirya kaplanlarında panthera tigris altaica da görülebilir. Yalnızca bu kaplanlar her ne kadar resesif gene sahip olsalar da bazilarinin dusundugu gibi albino değildirler.
+        
+        
+        </div>
+        <div class="modal-footer">
+         <button type="button" class="btn btn-danger" data-dismiss="modal">Kapat</button>
+        
+        
+        </div>
+        </div></div></div>
+
+        </div></div></div>
+    <div class="col-md-3"> <div class="card" ><img src="img/balina.jpg" height=200px >
+        <div style="background-color: beige; width: 100%"></div>
+    <div class="card-body">
+        
+        <h4 class="card-title">Balina</h4>
+         <p class="card-text">Balina yaşamını tamamen suda sürdüren ve yaygın olarak dünya okyanuslarında bulunan farklı çok sayıda türden oluşan plasentalı deniz memelileridir. Cetacea infra takımı içinde genellikle yunusları ve musurları hariç tutarak oluşturulmuş formel olmayan bir gruplamada yer alırlar.</p>
+           <button type="button" class="btn btn-info" data-toggle="modal" data-target="#secmodal">Bilgilenmek İçin Tıklayın</button>
+
+<div class="modal fade" id="secmodal">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+    <div class="modal-content">
+        
+        <div class="modal-header">
+        <h4 class="modal-title">Balina</h4>
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+        
+        </div>
+        <div class="modal-body"><img src="img/balinaa.jpg" height=250px width=100% ><br><br>
+                                                                        
+       Balinalar, yunuslar ve musurlar çift toynaklılarla birlikte Cetartiodactyla takımında yer alırlar. En yakın akrabaları olan su aygırlarından 40 milyon yıl kadar önce ayrılmışlardır. Balinaların iki parvo takımı dişsiz balinalar (Mysticeti) ve dişli balinalar (Odontoceti) birbirlerinden yaklaşık 34 milyon yıl kadar önce ayrılmışlardır. Yaşayan ve balina olarak kabul edilen familyalar şunlardır: Balaenopteridae (oluklu balinagiller), Balaenidae (gerçek balinagiller), Cetotheriidae (cüce gerçek balina), Eschrichtiidae (gri balina), Monodontidae (beyaz balinagiller), Physeteridae (ispermeçet balinasıgiller), Kogiidae (cüce ispermeçet balinasıgiller), ve Ziphiidae (gagalı balinagiller). <br><br>
+            Balinalar açık denizlerin yaratıklarıdır; denizde beslenirler, çiftleşirler, doğururlar, yavrularını denizde emzirir ve büyütürler. Yaşamları denizde yaşamaya öyle çok uyum sağlamıştır ki karada hayatta kalamazlar. Boyutları 2,6 m'lik boya ve 135 kg'lık ağırlığa sahip cüce ispermeçet balinasından 29,9 m'lik boya ve 190 ton ağırlığa sahip olan ve dünyanın yaşamış en büyük hayvanı olan mavi balinaya kadar değişir.
+        
+        
+        </div>
+        <div class="modal-footer">
+         <button type="button" class="btn btn-danger" data-dismiss="modal">Kapat</button>
+        
+        
+        </div>
+        </div></div></div>
+
+        </div></div></div>
+    <div class="col-md-3"> <div class="card" ><img src="img/kanguru.jpg" height=200px >
+         <div style="background-color: beige; width: 100%"></div>
+    <div class="card-body">
+       
+        <h4 class="card-title">Kanguru</h4>
+         <p class="card-text"> Kangurugiller, iki ön dişli bir keseli familyası. En çok tanılan keseliler olmakla birlikte, Avustralya faunasının en tipik temsilcileridir. Modern zoolojide artık yalnız bir familya olarak kabul edilen Sıçan kangurusugillerden daha iyi ayırt edilebilmeleri için Asıl Kangurugiller de denilir.
+        </p>
+             <button type="button" class="btn btn-info" data-toggle="modal" data-target="#tmodal">Bilgilenmek İçin Tıklayın</button>
+
+<div class="modal fade" id="tmodal">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+    <div class="modal-content">
+        
+        <div class="modal-header">
+        <h4 class="modal-title">Kanguru</h4>
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+        
+        </div>
+        <div class="modal-body"><img src="img/kanguru_ve_yavrusu.jpg" height=250px width=100% ><br><br>
+      Kangurugiller birbirinden farklı habitatlarda yaşar: Çalılık bölgelerde yaşayanlar, dağlık bölgelerde yaşayanlar ve hatta ağaçlarda yaşayanları vardır. Genelde gece aktif olurlar, ancak bazı zamanlarda gündüzleri de rastlanabilirler. Çoğu türler belli bir sosyal yapısı olmayan gruplar içerisinde yaşar.
+
+Kangurular gereken hıza göre iki farklı ilerleme yöntemi uygular: Yüksek süratte arka bacakları ile hoplayarak ilerlerler. Kuyruk havada kalır ve dengeyi sağlamak için kullanılır. Bu şekilde 50 km/saat hıza ulaşabilirler. Dev kangurular her hoplayışlarında 3 m atlayabilir. Yavaş ilerlerken tüm dört ayaklarını ve kuyruklarını kullanırlar. <br><br> Ağaç kanguruları zıplamaz ama çok iyi tırmanır. Kısa kuyruklu Quokka'lar ve Filander daima dört ayak üzerinde gider.
+
+Avustralya'da, doğada çift toynaklıların doldurduğu yeri Avustralya'da kangurugiller doldurur. Hatta sindirim sistemleri bile onlarınki gibi, özel mikroorganizmaların yardımı ile zor sindirilen bitkileri, bölünmüş mide odalarında sindirmeye yönelik gelişmiştir. Hatta bazen geviş getirirler. Bu iyi gelişmiş sindirim sistemi verimsiz bölgelerde de yaşayabilmelerini sağlar.
+        </div>
+        <div class="modal-footer">
+         <button type="button" class="btn btn-danger" data-dismiss="modal">Kapat</button>
+        
+        
+        </div>
+        </div></div></div>
+
+        </div></div></div>
+    <div class="col-md-3"> <div class="card"><img src="img/susamuru.jpg" height=200px >
+        <div style="background-color: beige; width: 100%"></div>
+    <div class="card-body">
+        
+        <h4 class="card-title">Su Samuru</h4>
+         <p class="card-text">Su samuru, sansargiller familyasından, nehir ve göl kıyılarında yaşayan etçil bir memeli. Su kenarlarında kazdığı çukurlarda yaşar. Yuvası karada olmakla beraber girişi su altındandır. İçini kuru yaprak ve yosunlarla döşer. Ayrıca havalandırma deliği de bırakır. Sevimli hayvanlardır.</p>
+            <button type="button" class="btn btn-info" data-toggle="modal" data-target="#fmodal">Bilgilenmek İçin Tıklayın</button>
+
+<div class="modal fade" id="fmodal">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+    <div class="modal-content">
+        
+        <div class="modal-header">
+        <h4 class="modal-title">Su Samuru</h4>
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+        
+        </div>
+        <div class="modal-body"><img src="img/ssamuru.jpg" height=250px width=100% ><br><br>
+        Uzun silindirik gövdeli, yassı kafalı, uzun bıyıklı, küçük kulaklıdır. Ayakları kısa, beş parmaklı ve kısmen perdelidir. Çoğunun rengi koyu kahverengidir. Su geçirmeyen sık tüylü postları kürkçülükte kıymetlidir. Suda ustalıkla yüzer. Balık, kurbağa avlar. Kuş, yumurta ve fare de yer. Özel eğitilmiş köpeklerle avlanılır. Suya dalarken burun ve kulak deliklerini kapatır. Yassı kuyruğunu dümen olarak kullanır. Kuyrukla beraber 1,5 metre boy ve 15 kg ağırlıkta olanları vardır. Kuyruk altı bezlerinde yağlı ve kokulu bir madde ifraz eder.
+
+Su samurlarının çok çeşitleri varsa da aralarındaki fark çok azdır. Bazı ülkelerde balıkçılar tarafından ehlileştirilerek balık avında kullanılır. Çoğunlukla yalnız dolaşır ve gece avlanır. Oynamayı ve suda sırtüstü yüzmeyi çok sever. <br> <br>
+        Amerika'nın kuzey okyanus kıyılarında yaşayan deniz samurunun (Lutax lutris) derisi gayet makbul ve kıymetlidir. Çok avlanıldığından nesli tükenme tehlikesi geçirmektedir. Kanunlarla korunmaya çalışılmaktadır. Gerçek bir su hayvanıdır. Suda yavrular, suda uyur ve suda beslenir. Karaya seyrek çıkar. Uzunluğu 120 ve kuyruğu 30 cm'dir. Ağırlığı 40 kg'ı bulur. Kıymetli kürkü koyu boz renktedir. Çoğunlukla deniz kestanesi, midye, istiridye, mürekkepbalığı ve salyangozlarla beslenir. Rahatça 30 metre derine dalar. Suyun yüzüne çıkınca sırtüstü yatarak avını midesinin üstüne koyar. Göğsüne yerleştirdiği yassı bir taşa vurarak kabuklarını kırar. Araç kullanabilen nadir hayvanlardandır.
+
+Her yıl tek bir yavru yavrular. Sırtüstü yüzerken yavrusunu emzirir. Avlanacağı zaman yavruyu yosunlar arasında gizler. Günümüzde nesli tükenme tehlikesiyle karşı karşıyadır.
+        
+        </div>
+        <div class="modal-footer">
+         <button type="button" class="btn btn-danger" data-dismiss="modal">Kapat</button>
+        
+        
+        </div>
+        </div></div></div>
+
+
+        </div></div></div>
+    
+    
+    
+    
+    </div>
+       </div></div>
+        
+        <div class="card">
+    <div class="header">
+    <a href="#collapse2" class="card-link collapsed"data-toggle="collapse"><div class="text-warning">Kuşlar</div></a></div>
+    <div id="collapse2" class="collapse"  data-parent="#accordion"> <div class="row">
+    <div class="col-md-3"> <div class="card" > <img src="img/sakall%C4%B1%20akbaba.jpg" height=200px >
+         <div style="background-color: beige; width: 100%"></div>
+    <div class="card-body">
+       
+        <h4 class="card-title">Sakallı Akbaba</h4>
+         <p class="card-text">Sakallı akbaba, atmacagiller familyasından Gypaetus cinsine ait olan tek türün adıdır. Karakuş, kuzu kuşu, Nuri kuşu olarak da bilinir. Cins, Eski Dünya akbabalarındandır.</p>
+         <button type="button" class="btn btn-info" data-toggle="modal" data-target="#amodal">Bilgilenmek İçin Tıklayın</button>
+
+<div class="modal fade" id="amodal">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+    <div class="modal-content">
+        
+        <div class="modal-header">
+        <h4 class="modal-title">Sakallı Akbaba</h4>
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+        
+        </div>
+        <div class="modal-body"><img src="img/sakal.jpg" height=250px width=100% ><br><br>
+   Diğer çoğu akbabadan farklı olarak, sakallı akbabalar kel değildir. Oldukça büyük kuşlardır ve 95–125 cm boyunda, 235–280 cm kanat açıklığındadırlar. Uçuşları sırasında görülen bu özellikleriyle de diğer akbabalardan ayrılırlar. Ağırlıkları 5 ila 7 kg arasındadır.
+
+Yetişkinler, kabarık baş ve boyunludur; başta, türe "sakallı" adını veren siyah bir bıyık bulunur. Kuyruk ve kanatlar gridir. Genç bireyler tamamen koyu renktir, ergin tüylerine kavuşması yaklaşık 5 yıl alır.
+
+Sakallı akbabalar, kayalıklardaki tiz çığlıklarıyla tanınırlar, bu yüzden de esaret altına alınmaktadırlar. Esaret altındaki bir sakallı akbaba 40 yıl kadar yaşayabilir.<br><br>Yuvaları dik uçurum kenarlarında bulunur, yuvaya 1 ila 2 yumurta bırakıp, kuluçkaya yatarlar. Yumurtalar bahar başlangıcında çatlar.
+
+Yaşam ortamları dağların 500 ila 4.000 metreleri arasındadır. Aralık ile Şubat ortalarında ürer, yuvalarına 53 ila 58 gün arasında çatlayan 1 ya da 2 yumurta bırakırlar. Yumurtaların çatlamasından 106 - 130 gün sonra yavrular uçma denemeleri yapmaya başlar.
+        </div>
+        <div class="modal-footer">
+         <button type="button" class="btn btn-danger" data-dismiss="modal">Kapat</button>
+        
+        
+        </div>
+        </div></div></div>
+        </div></div></div>
+    <div class="col-md-3"> <div class="card" ><img src="img/flamingo.jpg" height=200px >
+        <div style="background-color: beige; width: 100%"></div>
+    <div class="card-body">
+        
+        <h4 class="card-title">Flamingo</h4>
+         <p class="card-text">Flamingo, flamingolar takımının flamingogiller familyasından Phoenicopterus cinsini oluşturan 6 kuş türünün ortak adı. Tek bir cins ve onun altındaki 6 türden oluşur.</p>
+                <button type="button" class="btn btn-info" data-toggle="modal" data-target="#mmodal">Bilgilenmek İçin Tıklayın</button>
+
+<div class="modal fade" id="mmodal">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+    <div class="modal-content">
+        
+        <div class="modal-header">
+        <h4 class="modal-title">Flamingo</h4>
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+        
+        </div>
+        <div class="modal-body"><img src="img/fla.jpg" height=250px width=100% ><br><br>
+  Biyologların en yeni verdiği sonuçlara göre Avrupa türü, Rosa türü ve kendi içinde ve çaprazlama üreyebildiklerinden 2 alt türü olan Küba türü olarak türlendirilir.
+
+Flamingo, Anadolu'da Allı turna olarak bilinir. Pembe renkli bir su kuşudur.<br><br>Flamingolar, uzun ve ince bacaklara, yine uzun, eğri bir boyuna ve rosa rengi tüylere sahiptir. Belirgin özelliklerinden biri kıvrık bir gagasının olması ve bunun üst kısmıyla daldırıp da yiyecekleri su ya da çamurdan çıkarırken filtre vazifesi görmesidir. Tüylerindeki kırmızı renk tonları, yedikleri yiyeceklerin içerdiği karotin miktarına göre değişir. Esaret altındaki genç kuşlar, çok az karotin içerikli besinler aldığından beyaz tüylere sahiptirler.
+        </div>
+        <div class="modal-footer">
+         <button type="button" class="btn btn-danger" data-dismiss="modal">Kapat</button>
+        
+        
+        </div>
+        </div></div></div>
+        </div></div></div>
+    <div class="col-md-3"> <div class="card" ><img src="img/bayku%C5%9F.jpg" height=200px >
+         <div style="background-color: beige; width: 100%"></div>
+    <div class="card-body">
+       
+        <h4 class="card-title">Baykuş</h4>  <p class="card-text"> Baykuş ya da Gece yırtıcı kuşları, kuşlar sınıfının, karinalılar bölümünün, gökkuzgunumsular takımına giren gece yırtıcı kuşları alt takımında yer alan türlere verilen genel ad.</p>
+                <button type="button" class="btn btn-info" data-toggle="modal" data-target="#cmodal">Bilgilenmek İçin Tıklayın</button>
+
+<div class="modal fade" id="cmodal">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+    <div class="modal-content">
+        
+        <div class="modal-header">
+        <h4 class="modal-title">Baykuş</h4>
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+        
+        </div>
+        <div class="modal-body"><img src="img/by.jpg" height=250px width=100% ><br><br>
+   Başları büyük ve tüylüdür. Kuyrukları kısa olmakla beraber, kanatları enli ve uzundur. Bir kısmının kanat açıklığı, bir adam boyuna ulaşır. Serçe kadar küçük olanları da vardır. Gagaları kıvrık, pençeleri keskin, kanca tırnaklı ve döner parmaklıdır. Kuvvetli pençeleri adeta avına kenetlenir.
+
+Baykuşlar tam bir sessizlik içinde avlanır. Bütün vücudu yumuşak ve ince tüylerle kaplıdır. Tüyler, uçuş sırasında tabii bir susturucudur. Uçuş esnasında kanatlarının “pırpır” sesi duyulmaz. İri gözleri, başlarının yanında değil önündedir. Aşırı büyüklükteki gözleri, göz oyuğunda hareket edemez. Araba farı gibi yuvalarında sabittir.Baykuşlar boynunu 270 derece çevirerek panoramik bir görüş sağlayarak çevresini kontrol edebilir. Dişi baykuş erkeklerinden daha iri olup, 2-10 yumurta yumurtlarlar. Kuluçka süresi 30-40 gündür. Yumurtadan çıkan yavruların göz ve kulakları kapalıdır. Yavruların yuvada kalma süresi farklıdır.<br><br>“Al purple” yani “mor ışık görüntüsüne” sebep olan kimyasal bir madde bulunur. Rod hücreleri, en küçük bir ışığı bile kimyasal bir sinyale çevirirler. Böylece insanın sadece bir ışık parıltısını fark ettiği yerde baykuş buradaki cismi bütün teferruatı ile görür. Bütün kuşlarda üst göz kapağı alttakine geldiği halde baykuşlarda olay tersinedir. Mavi rengi görebilen tek kuş türüdür.
+        </div>
+        <div class="modal-footer">
+         <button type="button" class="btn btn-danger" data-dismiss="modal">Kapat</button>
+        
+        
+        </div>
+        </div></div></div>
+         
+        </div></div></div>
+    <div class="col-md-3"> <div class="card"><img src="img/penguen.jpg" height=200px >
+        <div style="background-color: beige; width: 100%"></div>
+    <div class="card-body">
+        
+        <h4 class="card-title">Penguen</h4>
+         <p class="card-text">Penguen, Penguengiller familyasını oluşturan, uçamayan, dimdik durabilen, perde ayaklı deniz kuşlarıdır. Güney Kutbu, Yeni Zelanda, Avustralya, Güney Amerika, Güney Afrika' da yaşarlar. </p>
+               <button type="button" class="btn btn-info" data-toggle="modal" data-target="#dmodal">Bilgilenmek İçin Tıklayın</button>
+
+<div class="modal fade" id="dmodal">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+    <div class="modal-content">
+        
+        <div class="modal-header">
+        <h4 class="modal-title">Penguen</h4>
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+        
+        </div>
+        <div class="modal-body"><img src="img/pen.jpg" height=250px width=100% ><br><br>
+  Kuzey Kutbu'da dahil olmak üzere Kuzey yarımkürede penguenler bulunmaz. Büyüklük bakımından 30 – 105 cm. arasında değişik 17 kadar türü bilinmektedir. En irileri olan İmparator penguen 45 kg. ağırlığa ulaşır. Sıcak bölgelere doğru gidildikçe boyları küçülür. Denizlerdeki kabuklular, balık ve mürekkep balıkları ile beslenirler. Tüyleri kuş tüylerine hiç benzemez. Sırtları siyah veya gri, karın kısımları beyaz ince ve pulsu tüylerle örtülüdür. Türler birbirinden, başlarındaki renkli tüyleriyle ayrılır. Kuyrukları kısa ve ayakları vücutlarının gerisinde olduğundan rahatlıkla dimdik ayakta durabilirler. Denizde, saatte 10 deniz mili hızla yüzebilirler. Hatta gerektiğinde bu hızlarını iki katına çıkarabilirler.<br><br>Kanatları uzun telek tüylerinden yoksun olup, kırılmadığı için uçmaya yaramaz. Buna karşılık yüzerken çok kuvvetli yüzgeç vazifesi görür. Penguenler, buz üzerinde sıçrar ve çok iyi kayarlar. Göğüslerinin üzerinde yatarak yüzgeç kanatlarının yardımıyla kızak gibi kayarak, karada birkaç yüz kilometre içeriye kadar girebilirler. Yalnız üreme mevsimlerinde yumurtlamak için karaya çıkarlar. Vücutlarını örten sık tüyler ve deri altlarındaki kalın yağ tabakaları ile Antarktika 'nın sıfırın altındaki dondurucu soğuklarından korunurlar. Vücut ısılarını ayarlayan otomatik bir mekanizmaya sahiptirler. Gerektiğinde kan damarlarıyla deriye giden kanı azaltarak, yükselterek ve tüylerini dikleştirerek vücut sıcaklıklarını kontrol ederler.
+        </div>
+        <div class="modal-footer">
+         <button type="button" class="btn btn-danger" data-dismiss="modal">Kapat</button>
+        
+        
+        </div>
+        </div></div></div>
+        </div></div></div>
+    
+    
+    
+    
+    </div>
+   </div></div>
+        
+            <div class="card">
+    <div class="header">
+    <a href="#collapse3" class="card-link collapsed"data-toggle="collapse"><div class="text-danger">Sürüngenler</div></a></div>
+    <div id="collapse3" class="collapse"  data-parent="#accordion"> <div class="row">
+    <div class="col-md-3"> <div class="card" ><img src="img/timsahh.jpg" height=200px >
+         <div style="background-color: beige; width: 100%"></div>
+    <div class="card-body">
+       
+        <h4 class="card-title">Timsah</h4> <p class="card-text">Timsahlar, sıcak bölgelerde bataklıklar ve su kenarlarında yaşayan vücudu kemiksi pullarla örtülü sürüngenleri içeren bir takım. Bu takımın familyaları Alligatoridae, Crocodylidae ve Gavialidae'dir. Crocodilia takımı, Kretase döneminin sonlarında, yaklaşık 84 milyon yıl önce ortaya çıkmış iri sürüngenlerdir.</p>
+                <button type="button" class="btn btn-info" data-toggle="modal" data-target="#qmodal">Bilgilenmek İçin Tıklayın</button>
+
+<div class="modal fade" id="qmodal">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+    <div class="modal-content">
+        
+        <div class="modal-header">
+        <h4 class="modal-title">Timsah</h4>
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+        
+        </div>
+        <div class="modal-body"><img src="img/timsh.jpg" height=250px width=100% ><br><br>
+   Kuşların yaşayan en yakın akrabalarıdır. Kuşlar ve timsahlar, Archosauria grubunun[1] yaşayan son üyeleridir. Crocodilia takımı, 220 milyon yıl önce Trias Döneminde ortaya çıkmış olan ve Mezozoik dönemde çok çeşitli şekillere ayrılan Crurotarsi grubunun[1] üyelerindendir. Timsah sözcüğü köken olarak Arapça bir sözcüktür. Peçenekler, Kumanlar, Kıpçaklar, Basmıllar, Oğuzlar, Karluklar, Türgeşler, Hazarlar, Göktürkler, Uygurlar, Tuna Bulgarları, Kimekler timsaha Alavan demişlerdir. Kâşgarlı Mahmud tarafından Bağdat'ta 1072 - 1074 yılları arasında yazılan Türkçe - Arapça sözlük olan Divânu Lügati't-Türk'te timsahın Türkçe karşılığı Alavan olarak geçer.<br><br>Timsah, sıcak bölgelerdeki akarsularda yaşayan, Timsahgiller takımından iri yapılı, kalın ve kabuksu derili sürüngen türlerinin genel adıdır. Uzaktan bakıldığında kertenkeleye benzerler. Vücutlarının üzeri, sert kemiksi plakalarla örtülüdür. Ön ayaklarında beşer, arka ayaklarında dörder parmak bulunur. Parmak araları tamamen veya kısmen perdelidir. Uzun, yandan basık kuyrukları suda kürek vazifesi görür. Güçlü dişlerle bezenmiş, çok kuvvetli çeneleri vardır. Yalnız üst çene açılır. Etli dil, alt damağa yapışıktır. Gözleri, burunları ve kulakları başlarının üst kısmında bulunur. Suda yüzerken rahatça etraflarını görür, işitir ve solunum yaparlar. Karada vücutlarını zor taşımalarına rağmen, suda çok iyi yüzerler. Gündüzleri dinlenir, çoğunlukla gece avlanırlar. Gözbebekleri dikey olduğundan gece de iyi görürler. Timsahlar renk körüdür ve dillerini dışarı çıkaramazlar.
+        </div>
+        <div class="modal-footer">
+         <button type="button" class="btn btn-danger" data-dismiss="modal">Kapat</button>
+        
+        
+        </div>
+        </div></div></div>
+         
+        </div></div></div>
+    <div class="col-md-3"> <div class="card" ><img src="img/bukalemun-696x462.jpg" height=200px >
+        <div style="background-color: beige; width: 100%"></div>
+    <div class="card-body">
+        
+        <h4 class="card-title">Bukalemun</h4><p class="card-text">Bukalemun, sürüngenler sınıfının Chamaeleonidae familyasından belli etmek istedikleri duygulara göre renk değiştirebilen, omurgalı hayvanlar ortak adı. Birçok yönden kertenkelelerden farklılıkları bulunduğundan, bazı bilim insanları kertenkeleleri Rhiptoglossa alt takımına dahil ederler.</p><br>
+                <button type="button" class="btn btn-info" data-toggle="modal" data-target="#wmodal">Bilgilenmek İçin Tıklayın</button>
+
+<div class="modal fade" id="wmodal">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+    <div class="modal-content">
+        
+        <div class="modal-header">
+        <h4 class="modal-title">Bukalemun</h4>
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+        
+        </div>
+        <div class="modal-body"><img src="img/buk.jpg" height=250px width=100% ><br><br>
+   Bukalemun adı Arapça "bū qalamūn"dan gelmektedir. (A)bū bileşeni Arapça hayvan isimlerinde tipiktir. Lekamun Arapçada "yutan" anlamındadır. Kalemun ismi Eski Yunanca χamailéōn "yer aslanı" (χamaí, yere yakın + léōn, aslan) kaynaklıdır. Eski Yunancadaki bu sözcüğün ise Akatça "nēşa qaqqari"nin (yer aslanı) çevirisi olduğu düşünülmektedir.<br><br>Chamaeleonidae familyasını diğer kertenkelelerden ayıran en önemli özellik, ayakların, dilin ve gözlerin alışılmadık biçimleri ve renk değiştirme özelliğidir. Vücutları yanlardan basıktır. Dilleri boylarının yaklaşık 1-1,5 katı uzunluğunda, hareketli ve yapışkandır .Bir jet uçağıyla kıyaslanırsa bukalemunların dilleri jet uçağına oranla 5 kat daha hızlıdır. Gözler bağımsız hareket eder, biri yukarı bakarken diğeri aşağıya bakabilir. Göz kapakları kalındır. Kolaylıkla renk değiştirirler. Derilerini sarı, yeşil tonları, kırmızı tonları, kestane rengi ve siyaha çevirebilirler, benekler, çizgiler oluşturabilirler. Uzunlukları 8–60 cm arasında değişse de genellikle 30 cm civarındadır. Çok yavaş yürürler. Ayakları ve kuyrukları dalları kavrayabilir.
+        </div>
+        <div class="modal-footer">
+         <button type="button" class="btn btn-danger" data-dismiss="modal">Kapat</button>
+        
+        
+        </div>
+        </div></div></div>
+         
+        </div></div></div>
+    <div class="col-md-3"> <div class="card" ><img src="img/komodoejderi.jpg" height=200px >
+         <div style="background-color: beige; width: 100%"></div>
+    <div class="card-body">
+       
+        <h4 class="card-title">Komodo Ejderi</h4><p class="card-text">Komodo ejderi, dünyanın en büyük kertenkele çeşididir. Komodo ejderleri azami 3 m uzunluğunda olup, ortalama ağırlıkları 70 kilo civarındadır. Adına ejder denilmesine karşın aslında bir varan çeşididir. Endonezya'ya bağlı Komodo, Rintja ve Flores adalarında bulunurlar. Otlak alanları tercih ederler.</p><br>
+                 <button type="button" class="btn btn-info" data-toggle="modal" data-target="#zmodal">Bilgilenmek İçin Tıklayın</button>
+
+<div class="modal fade" id="zmodal">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+    <div class="modal-content">
+        
+        <div class="modal-header">
+        <h4 class="modal-title">Komodo Ejderi</h4>
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+        
+        </div>
+        <div class="modal-body"><img src="img/komodo.jpg" height=250px width=100% ><br><br>
+  Komodo ejderleri iyi yüzer ve tırmanırlar ve gün boyunca aktiftirler. Yılanlarda olduğu gibi, uzun, çatallı dillerini kullanarak yiyecekleri bulurlar. Başlıca besinleri hayvan leşleridir. Aynı zamanda geyik ve yaban domuzu da avlarlar. Komodo ejderleri manda kadar iri hayvanları bile öldürebilirler. Salyasında çoğu tehlikeli 50'den fazla çeşit bakteri bulunur. Yemeklerinden geriye hiçbir şey bırakmazlar. Dişileri her yıl on beş civarında yumurta yaparlar. Onları yere gömüp, kuluçkaya yatarlar. Komodo ejderleri 1912 yılında Komodo adasındaki araştırmalara kadar doğal çevreleri dışında bilinmiyordu. Uzunluklarının 7 metrenin üzerine çıktığı iddia ediliyordu, fakat bilinen en büyük örnek, 3,50 metre boyunda ve 166 kg ağırlığındadır.<br><br>Komodo ejderinin ısırığında yılana benzer bir zehir bulunur. Bu zehir kurbanlarını şoka sokar, kanın pıhtılaşmasını engeller, kan akışının hızlanmasına, böylelikle kan basıncının düşmesine ve bilincinin kapanmasına neden olur. Ayrıca Komodo Ejderi avını ısırdıktan sonra hemen yemeyebilir, avı zaten girdiği şok sonucu öleceğinden daha sonra geri dönüp beslenebilir.
+
+Komodo ejderi, memelilerle beslenmesi ve sık sık insanlara saldırmasıyla da tanınıyor.
+        </div>
+        <div class="modal-footer">
+         <button type="button" class="btn btn-danger" data-dismiss="modal">Kapat</button>
+        
+        
+        </div>
+        </div></div></div>
+         
+        </div></div></div>
+    <div class="col-md-3"> <div class="card"><img src="img/kap.jpg" height=200px >
+        <div style="background-color: beige; width: 100%"></div>
+    <div class="card-body">
+        
+        <h4 class="card-title">Kaplumbağa</h4><p class="card-text">Kaplumbağa Testudines takımını oluşturan çok sert ve kemiksi bir kabuk içinde yaşayan, ağır yürüyüşlü, dört ayaklı, sürüngen bir hayvandır. Hareketleri yönünden ne kadar telaşsız ve ağır hayvanlarsa onların tarih boyunca gelişimi de o kadar yavaş olmuştur.</p><br><br>
+                <button type="button" class="btn btn-info" data-toggle="modal" data-target="#gmodal">Bilgilenmek İçin Tıklayın</button>
+
+<div class="modal fade" id="gmodal">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+    <div class="modal-content">
+        
+        <div class="modal-header">
+        <h4 class="modal-title">Kaplumbağa</h4>
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+        
+        </div>
+        <div class="modal-body"><img src="img/Kaplumbagalarin-Genel-Ozellikleri-9a11.jpg" height=250px width=100% ><br><br>
+ Kaplumbağalar, öteki sürüngenlerle birlikte Mezozoik'in ilk dönemi olan Trias Çağı'nda ortaya çıktılar. 200 milyon yıldan beri kaplumbağaların vücut yapıları önemli hiçbir değişikliğe uğramamıştır. Hâlbuki kaplumbağalar, dünyada soyu henüz tükenmemiş en eski hayvanlardandır.
+
+Açlığa pek dayanıklıdırlar. Çok uzun ömürlüdürler. Yüz, yüz elli yıl kadar yaşarlar.
+
+Kaplumbağalar çeşitlerine ve yaşadıkları iklim kuşağına göre kış uykusuna yatarlar. Deniz kaplumbağaları kış uykusuna yatmazlar çünkü onlar göç eden hayvanlardır. Bu iç güdünün ortaya çıkmasının nedeni İklim değişikliğidir. Bol Güneş ışığı alan kuru topraklarda kendine bir delik kazıp bütün kışı orada geçirmek üzere içine girer.
+
+Günümüzde, soyunu sürdürmekte olan 250'ye yakın kaplumbağa türü bulunmaktadır.<br><br>Kaplumbağaların başı vücutlarına oranla çok ufaktır. Ağızları bir kuşun gagasına benzer. Dişlerin yerini sert kemiksi bir damak almıştır. Kaplumbağalar, bununla besinlerini yakalar ve ezerek mekanik sindirim yapar. Dil kafasına oranla büyük ve yumuşaktır.
+
+Ayaklarına gelince, bunların uçlarında beşer parmak vardır, karada ve bataklıklarda yaşayan kaplumbağalarda bunlar hareketlidir. Uçlarındaki tırnaklar kıvrık ve serttir. Bataklıklarda yaşayan kaplumbağalarda birbirleriyle bir zar aracılığıyla birleşmiş küreğe benzer bir durum almıştır. Bunların arka ayak parmaklarının sayısı dörttür. Deniz kaplumbağalarında ise parmaklar bitişiktir. Aralarında perdeler vardır. bunları suyun içinde yüzmek ve dengede kalmak için kullanırlar.
+        </div>
+        <div class="modal-footer">
+         <button type="button" class="btn btn-danger" data-dismiss="modal">Kapat</button>
+        
+        
+        </div>
+        </div></div></div>
+         
+        </div></div></div>
+    
+        
+    
+    
+    
+    </div>
+        
+   </div></div>
+               <div class="card">
+    <div class="header">
+    <a href="#collapse4" class="card-link collapsed"data-toggle="collapse">Balıklar</a></div>
+    <div id="collapse4" class="collapse"  data-parent="#accordion"> <div class="row">
+    <div class="col-md-3"> <div class="card" ><img src="img/torba-gozlu-japon-baligi.jpg" height=200px >
+         <div style="background-color: beige; width: 100%"></div>
+    <div class="card-body">
+       
+        <h4 class="card-title">Balon Göz</h4><p class="card-text">Torba gözlü japon balığı ya da balon yanaklı japon balığı olarak da adlandırılan balon gözlü japon balığı, belki de en egzotik japon balığı cinsidir. Çoğu japon balığının aksine bakımı kolay değildir. Yeni başlayanlar için uygun olduğu söylenemez. Sırtı geriye doğru eğiktir ve vücudu yumurtayı andırır. Aslanbaş japon balığı gibi sırt yüzgeci yoktur. </p>
+                <button type="button" class="btn btn-info" data-toggle="modal" data-target="#bmodal">Bilgilenmek İçin Tıklayın</button>
+
+<div class="modal fade" id="bmodal">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+    <div class="modal-content">
+        
+        <div class="modal-header">
+        <h4 class="modal-title">Balon Göz</h4>
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+        
+        </div>
+        <div class="modal-body"><img src="img/torba.jpg" height=250px width=100% ><br><br>
+  Balon gözlü japon balığı en küçük japon balığı cinslerinden biridir. En fazla 12 santimetre boya ulaşır. Genellikle kırmızı, beyaz, kavuniçi ya da sarı rengindedir. Renk renk desenleri de olabilir. Parlak sarı renkli olanı çok nadirdir. Görüşü zayıf olduğu ve yavaş yüzdüğü için çevik ve aktif japon balıklarıyla rekabet edemez. Yüzmeyi pek sevmediği için genellikle akvaryum tabanında dinlenmeyi tercih eder. Sudan çıkartılmak istendiğinde başı desteklenmelidir.<br><br>Akvaryumda keskin akvaryum çakılları bulundurulmamalıdır. Sivri uçlu ya da keskin objelerin bulundurulması gözündeki baloncuğun patlamasına neden olabilir. Sert yapay bitkilerden de sakınılmalıdır. Güçlü bir akvaryum filtresi kullanılıyorsa, su emiş borusunun ucu sünger benzeri bir malzemeyle örtülmelidir. Aksi halde balığın gözüne zarar verebilir.
+
+Akvaryumda uyumlu balıkların bulundurulması önemlidir. Bu sayede balığınız yeterince yem yiyecek, stres olmayacak ve hızlı balıklar tarafından yaralanmayacaktır. Balon gözlü japon balığı ile besleyebileceğiniz en uygun balıklar, göğebakan japon balığı ve siyah teleskop gözlü japon balığıdır. Tek kuyruklu hızlı japon balıkları ile aynı akvaryumda bulundurulmaması gerekir. Klasik japon balığı, comet japon balığı ve shubunkin japon balığı sakınılması gereken türlerin başında gelir.
+        </div>
+        <div class="modal-footer">
+         <button type="button" class="btn btn-danger" data-dismiss="modal">Kapat</button>
+        
+        
+        </div>
+        </div></div></div>
+     
+        </div></div></div>
+    <div class="col-md-3"> <div class="card" ><img src="img/k%C3%B6pekbal%C4%B1%C4%9F%C4%B1.jpg" height=200px >
+        <div style="background-color: beige; width: 100%"></div>
+    <div class="card-body">
+        
+        <h4 class="card-title">Köpek Balığı</h4><p class="card-text">Köpek balığı, kıkırdaklı balıklar sınıfının Elasmobranchii alt sınıfını oluşturan iki üst takımdan biri olan Selachimorpha içinde sınıflanan canlı türlerinin ortak adıdır. Hem okyanusta hem de tatlı sularda bulunabilirler. Tropik sularda, kuzey denizlerinde ve Akdeniz’de çoğunlukla derinlerde rastlanırlar.</p><br>
+                <button type="button" class="btn btn-info" data-toggle="modal" data-target="#kmodal">Bilgilenmek İçin Tıklayın</button>
+
+<div class="modal fade" id="kmodal">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+    <div class="modal-content">
+        
+        <div class="modal-header">
+        <h4 class="modal-title">Köpek Balığı</h4>
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+        
+        </div>
+        <div class="modal-body"><img src="img/k%C3%B6pekb.jpg" height=250px width=100% ><br><br>
+ Beslenmelerine göre üç gruba ayrılırlar.
+
+Serbest yüzen deniz canlılarıyla beslenenler: Hexanchub, Lamnidae, Alopias, Carcharhinidae, Squalidae, Somniosus
+
+Tabanda yaşayan deniz canlılarıyla beslenenler: Heterodontida, Scyliorhinidae, Triakidae, Oxynotidae, Echinorhinidae, Pristiophoridae, Squatinoidei
+
+Planktonla beslenenler: Dev köpek balığı (Cetorhinus maximus), balina köpekbalığı (Rhincodontidae)<br><br>Vatozlar gibi köpekbalıklarının kanında da diğer canlılara nazaran daha fazla üre bulunur (% 05 - 8). Bu oran Teleostei balıklarınkinden yaklaşık yüz misli daha fazladır.
+
+Birim hacimdeki alyuvar sayısı Teleostei balıklarınkine göre yaklaşık 5-8 misli daha azdır. Bu eksiklik her alyuvarın yüzeyinin yaklaşık 5 defa daha büyütülmesi ile giderilmiştir. 
+        </div>
+        <div class="modal-footer">
+         <button type="button" class="btn btn-danger" data-dismiss="modal">Kapat</button>
+        
+        
+        </div>
+        </div></div></div>
+         
+        </div></div></div>
+    <div class="col-md-3"> <div class="card" ><img src="img/balon%20bal%C4%B1%C4%9F%C4%B1.jpg" height=200px >
+         <div style="background-color: beige; width: 100%"></div>
+    <div class="card-body">
+       
+        <h4 class="card-title">Balon Balığı</h4><p class="card-text">Balon balığı, yaygın olarak gümüş yanaklı toadfish olarak bilinen Lagocephalus sceleratus, Tetraodontidae (kirpi balığı balıkları) familyasından olan aşırı derecede zehirli bir deniz balığıdır.Hint ve Pasifik okyanuslarının tropik sularında yaygındır.</p><br><br><br>
+                 <button type="button" class="btn btn-info" data-toggle="modal" data-target="#balonmodal">Bilgilenmek İçin Tıklayın</button>
+
+<div class="modal fade" id="balonmodal">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+    <div class="modal-content">
+        
+        <div class="modal-header">
+        <h4 class="modal-title">Balon Balığı</h4>
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+        
+        </div>
+        <div class="modal-body"><img src="img/balonb.jpg" height=250px width=100% ><br><br>
+   Balon balığı Süveyş Kanalı'ndan ulaştığı, Doğu Akdeniz'e yeni bir Lessepsiyen göçmen ve batı Akdeniz'e doğru yayılıyor. Bu kıyılarında yakalandığı İsrail , güneyindeki Türkiye'de de, Kıbrıs , anakara güney kıyılarında Yunanistan , Girit ve Rodos . 2013 yılında Orta Akdeniz'de Lampedusa Adası'ndaki sularda ,  ve 2015'te Malta'da ve ayrıca kentin yakınlarındaki sularda rapor edilmiştir. Bir örnek, 2014 yazında Gruissan'da ( Aude , Fransa) yakalandı . <br><br>Doğal aralığında ( Kızıldeniz'de ),gümüş yanaklı toadfish, sığ kıyı sularından 250 m derinliğe kadar (820 ft) kayalık diplerde yaşar. Aralık 2018'de, Cape Verde Adası'ndaki "A Semana" gazetesi bu balığın sularında (Batı Afrika) yakalandığını yayınladı. Diğer kirpi balığı balıklarına benzer şekilde , gümüş yanaklı toadfish, yumurtalıklarında tetrodotoksin içerdiği ve cildini, kaslarını ve karaciğerini daha az ölçüde cılız avcılardan koruyan, az miktarda zehirli olduğu için çok zehirlidir . Toksini içeren bakterileri yerken toksik hale gelir.  Bu ölümcül madde, kurbanlarının nefes almasını engellemesine veya kalp yetmezliğine yol açmasına neden olabilecek istemsiz kasların felç olmasına neden olur. 
+        </div>
+        <div class="modal-footer">
+         <button type="button" class="btn btn-danger" data-dismiss="modal">Kapat</button>
+        
+        
+        </div>
+        </div></div></div>
+        
+        </div></div></div>
+    <div class="col-md-3"> <div class="card"><img src="img/pp.jpg" height=200px >
+        <div style="background-color: beige; width: 100%"></div>
+    <div class="card-body">
+        
+        <h4 class="card-title">Palyaço Balığı</h4><p class="card-text">Percula palyaço balığı veya turuncu palyaço balığı, popüler bir akvaryum balığı olarak bilinir. Kayıp Balık Nemo(Finding Nemo) adlı animasyon filmindeki ana karakter, Amphipron Ocellaris adı verilen bir palyaço balığı türüdür. En ilginç özelliklerinden biri cinsiyet değiştirebilmeleridir. Her palyaço balığı yumurtadan çıktığında erkektir.</p>
+               <button type="button" class="btn btn-info" data-toggle="modal" data-target="#pmodal">Bilgilenmek İçin Tıklayın</button>
+
+<div class="modal fade" id="pmodal">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+    <div class="modal-content">
+        
+        <div class="modal-header">
+            <h4 class="modal-title">Palyaço Balığı</h4>
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+        
+        </div>
+        <div class="modal-body"><img src="img/palyaco_baligi_big_3567431254_1140x471_false.jpg" height=250px width=100% ><br><br>
+  Bilinen 30’a yakın türü olan, canlı renkleriyle göze çarpan palyaço balığı, çoğunlukla Kızıldeniz, Hint Okyanusu ve Pasifik Okyanusu’ndaki sığ sularda yaşar. Ortalama boyu 6 cm’dir. Genellikle mercan kayalıklarını kendine mesken edinen bu türdür.Yaşam alanı olarak anemon ismiyle bilinen, görünümleri ile bir bitkiyi andıran zehirli hayvanların dokunaçlarının arasını tercih eder. Palyaço balığının derisinin üzerinde yer alan saydam tabaka, ona anemonun diğer pek çok canlı için öldürücü olabilecek zehrine karşı etkili bir koruma sağlar. İlk başta anemona sürtünerek “ortama uyum sağlayan” palyaço balığı, daha sonra dokunaçların arasına yerleşir. Hem yırtıcılara karşı bir korumaya sahip olan, hem de dokunaçların arasındaki yiyecek parçalarından faydalanan palyaço balığı, karşılığında anemonun parazitlerini temizler ve davetsiz misafirleri uzak tutar. Bu sayede ikili arasında mutualist (karşılıklı faydaya dayanan) bir ilişki ortaya çıkar. Palyaço balığı, anemon olmadan vahşi ortamda uzun süre yaşayamaz.<br><br>Bütün palyaço balıkları erkek olarak dünyaya gelirler. Buna karşılık, bir grupta dominant rolü elde etmek için cinsiyetlerini değiştirerek dişi olabilirler. Bir kere dişi olduktan sonra ise cinsiyetlerini yeniden değiştirmeleri mümkün değildir. Topluluklarda güçlü bir hiyerarşi söz konusudur. En büyük ve agresif dişi, hiyerarşinin tepesinde yer alır. Bu dişi gruptan ayrıldıktan sonra, gruptaki büyük ve dominant erkeklerden bir tanesi, cinsiyetini değiştirerek onun yerini alır.
+
+Palyaço balığının ortalama yaşam süresi 6 – 10 yıldır. Palyaço balığını, İstanbul Akvaryum’un Pasifik Alanı’nda görebilirsiniz. Palyaço balıkları, tehlike karşısında birbirlerine kenetlenip daha büyük bir balık görünümü verebilirler.
+        </div>
+        <div class="modal-footer">
+         <button type="button" class="btn btn-danger" data-dismiss="modal">Kapat</button>
+        
+        
+        </div>
+        </div></div></div>
+         
+        </div></div></div>
+    
+
+    </div>
+        
+   </div></div>
+    </div>
+
+    
+    
+    <br>
+  
+    
+     
+   <div class="jumbotron bg-dark">
+               <h4><div class="text-white text-center">4 Ekim, Pazar
+Hayvanları Koruma Günü 2020 (Türkiye)  </div></h4>
+			 </div>
+
+    
+    </div>
+    
+
+</body>
+</html>
